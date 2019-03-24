@@ -1,0 +1,218 @@
+body {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0%;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+body header {
+  padding: 10px 0 10px 0;
+  width: 100%;
+  height: 5%;
+  position: relative;
+  display: flex;
+  background: red;
+  align-items: center;
+}
+body header #p1 {
+  width: 220px;
+  display: flex;
+  align-items: center;
+  margin-left: 28px;
+}
+body header #p1 .fa, body header #p1 .fab, body header #p1 .fal, body header #p1 .far, body header #p1 .fas {
+  font-size: 20px;
+  color: white;
+}
+body header #p1 #marca {
+  margin-left: 22px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  color: white;
+}
+body header #p1 #marca #text {
+  margin-left: 15px;
+  font-size: 22px;
+}
+body header #p2 {
+  width: 1000px;
+  display: flex;
+  align-items: center;
+}
+body header #p2 #busqueda {
+  background: white;
+  border-radius: 5px;
+  width: 900px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+}
+body header #p2 #busqueda #lupa {
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+  font-size: 18px;
+}
+body header #p2 #busqueda #textbar {
+  border: 0px;
+  width: 820px;
+  height: 41px;
+  font-size: 15px;
+}
+body header #p2 #busqueda #down {
+  width: 35px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+  font-size: 18px;
+}
+body #contenido {
+  width: 100%;
+  height: 93%;
+  background: beige;
+  display: flex;
+}
+body #contenido #leftBar {
+  width: 13%;
+  height: 100%;
+  background: gray;
+  display: inline-block;
+  overflow-y: auto;
+}
+body #contenido #leftBar #redactar {
+  width: 100%;
+  height: 5%;
+  background: #00b7ff;
+  display: flex;
+  padding: 20px 0px 20px 0px;
+  align-items: center;
+  justify-content: right;
+}
+body #contenido #leftBar #redactar #btnen {
+  width: 140px;
+  height: 48px;
+  margin-left: 10px;
+  background: white;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  color: gray;
+}
+body #contenido #leftBar #redactar #btnen #pluss {
+  width: 18px;
+}
+body #contenido #leftBar #categorias {
+  width: 100%;
+  height: 60%;
+  background: yellow;
+  display: inline-block;
+  overflow-y: auto;
+}
+body #contenido #leftBar #categorias .btn {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+body #contenido #leftBar #categorias .btn .fa, body #contenido #leftBar #categorias .btn .fab, body #contenido #leftBar #categorias .btn .fal, body #contenido #leftBar #categorias .btn .far, body #contenido #leftBar #categorias .btn .fas {
+  margin-left: 25px;
+  margin-right: 12px;
+}
+body #contenido #leftBar #hangoust {
+  width: 100%;
+  height: 29.5%;
+  background: red;
+  display: inline-block;
+  position: relative;
+}
+body #contenido #leftBar #hangoust #foot {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+body #contenido #leftBar #hangoust #foot #usuario {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 5px 0px 5px 0px;
+}
+body #contenido #leftBar #hangoust #foot #usuario #perfil {
+  width: 30px;
+  height: 30px;
+  background: #96BAFB;
+  border-radius: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4274E0;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+body #contenido #leftBar #hangoust #foot #usuario #agregar {
+  margin-left: 35%;
+  color: #484B4E;
+}
+body #contenido #leftBar #hangoust #foot #hanop {
+  width: 100%;
+  height: 15%;
+  background: beige;
+  border-top: #8b8b8f 0.2px solid;
+  display: flex;
+  justify-content: center;
+}
+body #contenido #leftBar #hangoust #foot #hanop .opbtn {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #484B4E;
+}
+body #contenido #midBar {
+  width: 87%;
+  height: 100%;
+  background: white;
+}
+body #contenido #midBar #cabecera {
+  width: 100%;
+  height: 5.3%;
+  background: #009ffc;
+  display: flex;
+}
+body #contenido #midBar #cabecera #check {
+  width: 3%;
+  height: 100%;
+  background: gold;
+}
+body #contenido #midBar #bandeja {
+  width: 100%;
+  height: 94.7%;
+  background: #00ff55;
+}
+body #contenido #midBar #bandeja #opciones {
+  width: 100%;
+  height: 7%;
+  background: #eeff00;
+}
+body #contenido #midBar #bandeja #correo {
+  width: 100%;
+  height: 5%;
+  background: #ae00ff;
+}
+
+/*# sourceMappingURL=main.css.map */

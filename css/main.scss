@@ -1,0 +1,271 @@
+body{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+
+    header{
+        padding: 10px 0 10px 0;
+        width: 100%;
+        height: 5%;
+        position: relative;
+        display: flex;
+        background: red;
+        align-items: center;
+
+        #p1{
+            width: 220px;
+            display: flex;
+            align-items: center;
+            margin-left:28px; 
+        .fa, .fab, .fal, .far, .fas {
+            
+            
+            font-size: 20px;
+            color: white;
+
+        }
+
+        #marca{
+
+            margin-left: 22px;
+            width: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+            color: white;
+            
+            #text{
+                margin-left: 15px;
+                font-size: 22px;
+            }
+
+        }
+        }
+        #p2{
+            width: 1000px;
+            display: flex;
+            align-items: center;
+         
+
+            #busqueda{
+
+                background: white;
+                border-radius:5px; 
+                width: 900px;
+                height: 46px;
+                display: flex;
+                align-items: center;
+                #lupa{
+                    width: 38px;
+                    height: 38px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: gray;
+                    font-size: 18px;
+                }
+
+                #textbar{
+                    
+                    border: 0px;
+                    width: 820px;
+                    height: 41px;
+                    font-size: 15px;
+                }
+
+                #down{
+
+                    width: 35px;
+                    height: 38px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: gray;
+                    font-size: 18px;
+                    
+
+
+                }
+
+            }
+        }
+
+    }
+    
+    #contenido{
+    
+        width: 100%;
+        height: 93%;
+        background: beige;
+        display: flex;
+        
+
+        #leftBar{
+
+            width: 13%;
+            height: 100%;
+            background: gray;
+            display: inline-block;
+            overflow-y: auto; 
+            
+
+            #redactar{
+                
+                width: 100%;
+                height: 5%;
+                background: rgb(0, 183, 255);
+                display: flex;
+                padding: 20px 0px 20px 0px;
+                align-items: center;
+                justify-content: right;
+                #btnen{
+                    width: 140px;
+                    height: 48px;
+                    margin-left: 10px;
+                    background: rgb(255, 255, 255);
+                    border-radius: 25px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 15px;
+                    color: gray;
+                    #pluss{
+
+                        width: 18px;
+
+
+                    }
+                }
+
+            }
+            #categorias{
+
+                width: 100%;
+                height: 60%;
+                background: yellow;
+                display: inline-block;
+                overflow-y: auto;
+
+                .btn{
+                    width: 100%;
+                    height: 30px;
+                    display: flex;
+                    align-items: center;
+                    color: gray;
+                    .fa, .fab, .fal, .far, .fas {
+
+                        margin-left: 25px;
+                        margin-right: 12px;
+                        
+                    }
+                }
+
+            }
+            #hangoust{
+                
+                width: 100%;
+                height:29.5%;
+                background: red;
+                display: inline-block;
+                position: relative;
+
+                #foot{
+                    width: 100%;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                #usuario{
+                    width: 100%;
+                    height: 20%;
+                    display: flex;
+                    align-items: center;
+                    color: white;
+                    padding: 5px 0px 5px 0px;
+                    #perfil{
+                        width: 30px;
+                        height: 30px;
+                        background: #96BAFB;
+                        border-radius:360px; 
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: #4274E0;
+                        margin-right:5px; 
+                        margin-left:10px; 
+                    }
+                    #agregar{
+                        margin-left: 35%;
+                        color: #484B4E;
+                    }
+                }
+                #hanop{
+                    width: 100%;
+                    height: 15%;
+                    background: beige;
+                    border-top: rgb(139, 139, 143) 0.2px solid;
+                    display: flex;
+                    justify-content: center;
+                    .opbtn{
+                        width: 40px;
+                        height: 40px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: #484B4E;
+                    }
+                }
+                
+ 
+            }
+        }
+
+        }
+
+        #midBar{
+
+            width: 87%;
+            height: 100%;
+            background: white;
+
+            #cabecera{
+                width: 100%;
+                height: 5.3%;
+                background: rgb(0, 159, 252);
+                display: flex;
+                #check{
+                    width: 3%;
+                    height: 100%;
+                    background: gold;
+                }
+            }
+            #bandeja{
+
+                width: 100%;
+                height: 94.7%;
+                background: rgb(0, 255, 85);
+
+                #opciones{
+                    width: 100%;
+                    height: 7%;
+                    background: rgb(238, 255, 0);
+                }
+
+                #correo{
+                    width: 100%;
+                    height: 5%;
+                    background: rgb(174, 0, 255);
+                }
+
+
+            }
+
+        }
+    
+    }
+
+}
+
