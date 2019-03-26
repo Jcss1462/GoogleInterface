@@ -12,8 +12,9 @@ body header {
   height: 5%;
   position: relative;
   display: flex;
-  background: red;
+  background: white;
   align-items: center;
+  border-bottom: #ECEFF1 solid 1px;
 }
 body header #p1 {
   width: 220px;
@@ -23,7 +24,7 @@ body header #p1 {
 }
 body header #p1 .fa, body header #p1 .fab, body header #p1 .fal, body header #p1 .far, body header #p1 .fas {
   font-size: 20px;
-  color: white;
+  color: #767676;
 }
 body header #p1 #marca {
   margin-left: 22px;
@@ -32,7 +33,7 @@ body header #p1 #marca {
   align-items: center;
   justify-content: center;
   align-content: center;
-  color: white;
+  color: #767676;
 }
 body header #p1 #marca #text {
   margin-left: 15px;
@@ -44,7 +45,7 @@ body header #p2 {
   align-items: center;
 }
 body header #p2 #busqueda {
-  background: white;
+  background: #F5F5F5;
   border-radius: 5px;
   width: 900px;
   height: 46px;
@@ -65,6 +66,7 @@ body header #p2 #busqueda #textbar {
   width: 820px;
   height: 41px;
   font-size: 15px;
+  background-color: #F5F5F5;
 }
 body header #p2 #busqueda #down {
   width: 35px;
@@ -84,14 +86,14 @@ body #contenido {
 body #contenido #leftBar {
   width: 13%;
   height: 100%;
-  background: gray;
+  background: white;
   display: inline-block;
   overflow-y: auto;
 }
 body #contenido #leftBar #redactar {
   width: 100%;
   height: 5%;
-  background: #00b7ff;
+  background: white;
   display: flex;
   padding: 20px 0px 20px 0px;
   align-items: center;
@@ -103,6 +105,8 @@ body #contenido #leftBar #redactar #btnen {
   margin-left: 10px;
   background: white;
   border-radius: 25px;
+  border: #d9d9df 0.5px solid;
+  box-shadow: 1px 1px 1px 1px #d9d9df;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -115,7 +119,7 @@ body #contenido #leftBar #redactar #btnen #pluss {
 body #contenido #leftBar #categorias {
   width: 100%;
   height: 60%;
-  background: yellow;
+  background: white;
   display: inline-block;
   overflow-y: auto;
 }
@@ -133,7 +137,7 @@ body #contenido #leftBar #categorias .btn .fa, body #contenido #leftBar #categor
 body #contenido #leftBar #hangoust {
   width: 100%;
   height: 29.5%;
-  background: red;
+  background: white;
   display: inline-block;
   position: relative;
 }
@@ -148,8 +152,9 @@ body #contenido #leftBar #hangoust #foot #usuario {
   height: 20%;
   display: flex;
   align-items: center;
-  color: white;
+  color: black;
   padding: 5px 0px 5px 0px;
+  border-top: #E5E5E5 0.2px solid;
 }
 body #contenido #leftBar #hangoust #foot #usuario #perfil {
   width: 30px;
@@ -165,13 +170,13 @@ body #contenido #leftBar #hangoust #foot #usuario #perfil {
 }
 body #contenido #leftBar #hangoust #foot #usuario #agregar {
   margin-left: 35%;
-  color: #484B4E;
+  color: #8B8B8B;
 }
 body #contenido #leftBar #hangoust #foot #hanop {
   width: 100%;
   height: 15%;
-  background: beige;
-  border-top: #8b8b8f 0.2px solid;
+  background: white;
+  border-top: #E5E5E5 0.2px solid;
   display: flex;
   justify-content: center;
 }
@@ -181,7 +186,7 @@ body #contenido #leftBar #hangoust #foot #hanop .opbtn {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #484B4E;
+  color: #8B8B8B;
 }
 body #contenido #midBar {
   width: 87%;
@@ -191,28 +196,212 @@ body #contenido #midBar {
 body #contenido #midBar #cabecera {
   width: 100%;
   height: 5.3%;
-  background: #009ffc;
+  background: white;
   display: flex;
+  border-bottom: #ECEFF1 solid 1px;
 }
-body #contenido #midBar #cabecera #check {
-  width: 3%;
+body #contenido #midBar #cabecera #botonesp1 {
+  width: 12%;
   height: 100%;
-  background: gold;
+  display: flex;
+  font-size: 18px;
+  color: #767676;
+}
+body #contenido #midBar #cabecera #botonesp1 #check {
+  width: 33%;
+  height: 100%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #767676;
+}
+body #contenido #midBar #cabecera #botonesp1 #check #checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 100%;
+}
+body #contenido #midBar #cabecera #botonesp1 #check #down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15px;
+  height: 100%;
+  margin-bottom: 5px;
+}
+body #contenido #midBar #cabecera #botonesp1 .opbtn {
+  width: 33%;
+  height: 100%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #767676;
+}
+body #contenido #midBar #cabecera #botonesp1 .opbtn:hover {
+  cursor: pointer;
+  background: #4274E0;
+}
+body #contenido #midBar #cabecera #botonesp2 {
+  width: 65%;
+  height: 100%;
+  background: white;
+}
+body #contenido #midBar #cabecera #botonesp3 {
+  width: 21%;
+  height: 100%;
+  background: white;
+  display: flex;
+  color: #767676;
+  font-size: 14px;
+}
+body #contenido #midBar #cabecera #botonesp3 #conteo {
+  width: 30%;
+  height: 100%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #767676;
+}
+body #contenido #midBar #cabecera #botonesp3 #flechas {
+  width: 30%;
+  height: 100%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body #contenido #midBar #cabecera #botonesp3 #flechas #izq, body #contenido #midBar #cabecera #botonesp3 #flechas #der {
+  width: 50%;
+  height: 100%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body #contenido #midBar #cabecera #botonesp3 #idioma {
+  width: 30%;
+  height: 100%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body #contenido #midBar #cabecera #botonesp3 #idioma #idi {
+  font-size: 18px;
+  width: 25%;
+}
+body #contenido #midBar #cabecera #botonesp3 #idioma #down {
+  margin-bottom: 5px;
+}
+body #contenido #midBar #cabecera #botonesp3 #config {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
 }
 body #contenido #midBar #bandeja {
   width: 100%;
   height: 94.7%;
-  background: #00ff55;
+  background: white;
 }
 body #contenido #midBar #bandeja #opciones {
   width: 100%;
   height: 7%;
-  background: #eeff00;
+  background: white;
+  display: flex;
+  border-bottom: #ECEFF1 solid 1px;
 }
-body #contenido #midBar #bandeja #correo {
+body #contenido #midBar #bandeja #opciones #principal {
+  width: 14%;
+  height: 99%;
+  background: white;
+  display: flex;
+  align-items: center;
+  color: #D93B30;
+}
+body #contenido #midBar #bandeja #opciones #principal .img {
+  margin-right: 15px;
+  margin-left: 12px;
+}
+body #contenido #midBar #bandeja #opciones #social {
+  width: 14%;
+  height: 99%;
+  background: white;
+  display: flex;
+  align-items: center;
+  color: #70706F;
+}
+body #contenido #midBar #bandeja #opciones #social .img {
+  margin-right: 15px;
+  margin-left: 12px;
+}
+body #contenido #midBar #bandeja #opciones #promociones {
+  width: 14%;
+  height: 99%;
+  background: white;
+  display: flex;
+  align-items: center;
+  color: #70706F;
+}
+body #contenido #midBar #bandeja #opciones #promociones .img {
+  margin-right: 15px;
+  margin-left: 12px;
+}
+body #contenido #midBar #bandeja #zonacorreo {
+  width: 100%;
+  height: 92%;
+  display: inline-block;
+  overflow-y: auto;
+}
+body #contenido #midBar #bandeja #zonacorreo .correo {
   width: 100%;
   height: 5%;
-  background: #ae00ff;
+  background: white;
+  display: flex;
+  overflow-y: auto;
+  border-bottom: #ECEFF1 solid 1px;
+}
+body #contenido #midBar #bandeja #zonacorreo .correo #mailop {
+  width: 7%;
+  height: 100%;
+  background: white;
+  display: flex;
+}
+body #contenido #midBar #bandeja #zonacorreo .correo #mailop .op {
+  width: 33.3%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  color: #A7AAAC;
+}
+body #contenido #midBar #bandeja #zonacorreo .correo #de {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+body #contenido #midBar #bandeja #zonacorreo .correo #mensaje {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+body #contenido #midBar #bandeja #zonacorreo .correo #hora {
+  width: 8%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=main.css.map */

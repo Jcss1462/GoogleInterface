@@ -12,8 +12,9 @@ body{
         height: 5%;
         position: relative;
         display: flex;
-        background: red;
+        background: white;
         align-items: center;
+        border-bottom: #ECEFF1 solid 1px;
 
         #p1{
             width: 220px;
@@ -24,7 +25,7 @@ body{
             
             
             font-size: 20px;
-            color: white;
+            color: #767676;
 
         }
 
@@ -36,7 +37,7 @@ body{
             align-items: center;
             justify-content: center;
             align-content: center;
-            color: white;
+            color: #767676;
             
             #text{
                 margin-left: 15px;
@@ -49,11 +50,11 @@ body{
             width: 1000px;
             display: flex;
             align-items: center;
-         
+            
 
             #busqueda{
 
-                background: white;
+                background: #F5F5F5;
                 border-radius:5px; 
                 width: 900px;
                 height: 46px;
@@ -75,6 +76,7 @@ body{
                     width: 820px;
                     height: 41px;
                     font-size: 15px;
+                    background-color: #F5F5F5;
                 }
 
                 #down{
@@ -108,7 +110,7 @@ body{
 
             width: 13%;
             height: 100%;
-            background: gray;
+            background: white;
             display: inline-block;
             overflow-y: auto; 
             
@@ -117,7 +119,7 @@ body{
                 
                 width: 100%;
                 height: 5%;
-                background: rgb(0, 183, 255);
+                background: white;
                 display: flex;
                 padding: 20px 0px 20px 0px;
                 align-items: center;
@@ -128,6 +130,8 @@ body{
                     margin-left: 10px;
                     background: rgb(255, 255, 255);
                     border-radius: 25px;
+                    border: rgb(217, 217, 223) 0.5px solid;
+                    box-shadow: 1px 1px 1px 1px rgb(217, 217, 223);
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -146,7 +150,7 @@ body{
 
                 width: 100%;
                 height: 60%;
-                background: yellow;
+                background: white;
                 display: inline-block;
                 overflow-y: auto;
 
@@ -169,7 +173,7 @@ body{
                 
                 width: 100%;
                 height:29.5%;
-                background: red;
+                background: white;
                 display: inline-block;
                 position: relative;
 
@@ -183,8 +187,9 @@ body{
                     height: 20%;
                     display: flex;
                     align-items: center;
-                    color: white;
+                    color: black;
                     padding: 5px 0px 5px 0px;
+                    border-top: #E5E5E5 0.2px solid;
                     #perfil{
                         width: 30px;
                         height: 30px;
@@ -199,14 +204,14 @@ body{
                     }
                     #agregar{
                         margin-left: 35%;
-                        color: #484B4E;
+                        color: #8B8B8B;
                     }
                 }
                 #hanop{
                     width: 100%;
                     height: 15%;
-                    background: beige;
-                    border-top: rgb(139, 139, 143) 0.2px solid;
+                    background: white;
+                    border-top: #E5E5E5 0.2px solid;
                     display: flex;
                     justify-content: center;
                     .opbtn{
@@ -215,7 +220,7 @@ body{
                         display: flex;
                         align-items: center;
                         justify-content: center;
-                        color: #484B4E;
+                        color: #8B8B8B;
                     }
                 }
                 
@@ -234,31 +239,231 @@ body{
             #cabecera{
                 width: 100%;
                 height: 5.3%;
-                background: rgb(0, 159, 252);
+                background: white;
                 display: flex;
-                #check{
-                    width: 3%;
+                border-bottom: #ECEFF1 solid 1px;
+
+                #botonesp1{
+                    width:12%;
                     height: 100%;
-                    background: gold;
+                    display: flex; 
+                    font-size: 18px;
+                    color: #767676;
+               
+                #check{
+                    width: 33%;
+                    height: 100%;
+                    background: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #767676;
+                    #checkbox{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 25px;
+                        height: 100%;
+                    }
+                    #down{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 15px;
+                        height: 100%;
+                        margin-bottom: 5px;
+                        
+                    }
+    
                 }
+                .opbtn{
+                    width: 33%;
+                    height: 100%;
+                    background: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #767676;
+                    
+
+                }
+                .opbtn:hover{
+                    cursor: pointer;
+                    background: #4274E0;
+                }
+                }
+                #botonesp2{
+                    width: 65%;
+                    height: 100%;
+                    background: white;
+                } 
+                #botonesp3{
+                    width: 21%;
+                    height: 100%;
+                    background: white;
+                    display: flex;
+                    color: #767676;
+                    font-size: 14px;
+                    #conteo{
+                        width: 30%;
+                        height: 100%;
+                        background: white;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: #767676;
+                    }
+                    #flechas{
+                        width: 30%;
+                        height: 100%;
+                        background: white;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        #izq,#der{
+                            width: 50%;
+                            height: 100%;
+                            background: white;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+
+                    }
+                    #idioma{
+                        width: 30%;
+                        height: 100%;
+                        background: white;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        #idi{
+                            font-size: 18px;
+                            width: 25%;   
+                        }
+                        #down{
+                            margin-bottom: 5px;
+                        }
+
+                    }
+                    #config{
+                        width: 10%;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 20px;
+                    }
+
+                }   
+
+        
+                
             }
             #bandeja{
 
                 width: 100%;
                 height: 94.7%;
-                background: rgb(0, 255, 85);
+                background: white;
+                
 
                 #opciones{
                     width: 100%;
                     height: 7%;
-                    background: rgb(238, 255, 0);
+                    background: white;
+                    display: flex;
+                    border-bottom: #ECEFF1 solid 1px;
+                    #principal{
+                        width: 14%;
+                        height: 99%;
+                        background: white;
+                        display: flex;
+                        align-items: center;
+                        color: #D93B30;
+                        .img{
+                            margin-right: 15px;
+                            margin-left: 12px;
+                        
+                        }
+                        
+                    }
+                    #social{
+                        width: 14%;
+                        height: 99%;
+                        background: white;
+                        display: flex;
+                        align-items: center;
+                        color: #70706F;
+                        .img{
+                            margin-right: 15px;
+                            margin-left: 12px;    
+                        }
+                    }
+                    #promociones{
+                        width: 14%;
+                        height: 99%;
+                        background: white;
+                        display: flex;
+                        align-items: center;
+                        color: #70706F;
+                        .img{
+                            margin-right: 15px;
+                            margin-left: 12px;    
+                        }
+                    }
                 }
 
-                #correo{
+                #zonacorreo{
+                    width: 100%;
+                    height: 92%;
+                    display: inline-block;
+                    overflow-y: auto;
+                .correo{
                     width: 100%;
                     height: 5%;
-                    background: rgb(174, 0, 255);
+                    background: white;
+                    display: flex;
+                    overflow-y: auto;
+                    border-bottom: #ECEFF1 solid 1px;
+
+                    #mailop{
+                        width: 7%;
+                        height: 100%;
+                        background: white;
+                        display: flex;
+                        .op{
+                            width: 33.3%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background: white;
+                            color: #A7AAAC;
+                        }
+                    }
+                    #de{
+                        width: 15%;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        font-size: 16px;
+                    }
+                    #mensaje{
+                        width: 70%;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        font-size: 16px;
+                    }
+                    #hora{
+                        width: 8%;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        font-size: 16px;
+                    }
                 }
+            }
 
 
             }
