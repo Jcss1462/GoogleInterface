@@ -80,7 +80,7 @@ body header #p2 #busqueda #down {
 body #contenido {
   width: 100%;
   height: 93%;
-  background: beige;
+  background: white;
   display: flex;
 }
 body #contenido #leftBar {
@@ -402,6 +402,24 @@ body #contenido #midBar #bandeja #zonacorreo .correo #hora {
   display: flex;
   align-items: center;
   font-size: 16px;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    width: 800px;
+  }
+  body header #p1 #marca {
+    display: none;
+  }
+  body #contenido #leftBar {
+    width: 0%;
+  }
+  body #contenido #midBar #cabecera {
+    display: none;
+  }
+  body #contenido #midBar #bandeja #opciones {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
