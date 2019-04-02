@@ -477,13 +477,24 @@ body{
 
     body{
 
-       width: 680px;
+       width: 770px;
         header{
 
             display:flex;
 
             #p1{
                 width: 50px;
+
+                #barras:hover{
+
+                    background: #4274E0;
+                    #leftBar{
+                        width: 20%;
+                    }
+                    
+                }
+
+                
                 #marca{
                     display: none;
                 }

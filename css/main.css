@@ -406,13 +406,19 @@ body #contenido #midBar #bandeja #zonacorreo .correo #hora {
 
 @media only screen and (max-width: 800px) {
   body {
-    width: 680px;
+    width: 770px;
   }
   body header {
     display: flex;
   }
   body header #p1 {
     width: 50px;
+  }
+  body header #p1 #barras:hover {
+    background: #4274E0;
+  }
+  body header #p1 #barras:hover #leftBar {
+    width: 20%;
   }
   body header #p1 #marca {
     display: none;
